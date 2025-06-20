@@ -1,0 +1,21 @@
+{
+  "name": "ttydjs",
+  "version": "1.0.0",
+  "description": "Node.js http Server",
+  "main": "app.js",
+  "author": "eooce",
+  "repository": "eooce",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "axios": "^1.6.2",
+    "http-proxy": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
